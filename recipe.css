@@ -1,0 +1,188 @@
+body h4 {
+    color: #a4a400;
+    text-align: center;
+    background: #F0F0F0;
+    font-size: 22pt;
+    font-family: Lucida Sans, Helvetica, Arial, Sans-serif;
+}
+
+.ingredients h1 {
+    color: #a4a400;
+    text-align: left;
+    background: #F0F0F0;
+    font-size: 18pt;
+    font-family: Lucida Sans, Helvetica, Arial, Sans-serif;
+}
+
+.procedure h1 {
+    color: #a4a400;
+    text-align: left;
+    background: #F0F0F0;
+    font-size: 18pt;
+    font-family: Lucida Sans, Helvetica, Arial, Sans-serif;
+}
+
+.finally h1 {
+    color: #a4a400;
+    text-align: left;
+    background: #F0F0F0;
+    font-size: 18pt;
+    font-family: Lucida sans-unicode, Helvetica, Arial, Sans-serif;
+}
+
+.finally p {
+    color: #020202;
+    text-align: left;
+    background: #F0F0F0;
+    background-color: #FFFFA8;
+}
+
+footer h1 {
+    color: #a4a400;
+    text-align: left;
+    background: #F0F0F0;
+    font-size: 18pt;
+    font-family: Lucida Sans, Helvetica, Arial, Sans-serif;
+}
+
+button {
+    padding: .1rem 1rem;
+    background: none;
+    border: rgb(243, 239, 239);
+    color: rgb(248, 245, 245);
+    cursor: pointer;
+}
+
+footer a {
+    color: #a4a400;
+    text-align: left;
+    background: #F0F0F0;
+    font-size: 14pt;
+}
+
+.part1 ul {
+    list-style-image: url(/images/pie_bullet.png);
+}
+
+.ingredients ul {
+    list-style-image: url(/images/pie_icon.gif);
+}
+
+.procedure ul {
+    list-style-image: url(/images/pie_icon.gif);
+}
+
+.cover {
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 242, 242);
+    line-height: 10rem;
+}
+
+.cover a {
+    text-decoration: wavy;
+    color: rgb(2, 1, 1);
+    font-size: 180%;
+    font-style: italic;
+}
+
+.cover h1 {
+    font-size: 4rem;
+    color: white;
+    border: 3mm;
+    border-style: double;
+    border-color: rgb(244, 248, 8);
+    text-decoration: double;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(243, 240, 240);
+}
+
+.cover u {
+    color: black;
+    text-decoration-color: #f3db05;
+}
+
+.cover h4 {
+    font-size: 2rem;
+    border: 3mm;
+    border-style: solid;
+    color: rgb(241, 245, 6);
+    border-color: rgb(231, 210, 17);
+    border-radius: 100%;
+    background-color: black;
+}
+
+.cover::before {
+    position: absolute;
+    content: "";
+    height: inherit;
+    width: inherit;
+    background: url(https://images7.alphacoders.com/638/thumb-1920-638060.jpg) center center/cover;
+    opacity: 7;
+    z-index: -1;
+}
+
+.cover button {
+    padding: .3rem 3rem;
+    background: #f3db05;
+    border: rgb(243, 239, 239);
+    border-style: double;
+    color: rgb(248, 245, 245);
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+.explanation {
+    height: 1000vh;
+    width: 200vh;
+    background: var(--blue);
+    color-scheme: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.explanation h1 {
+    font-size: 3.5rem;
+    color: antiquewhite;
+    margin-bottom: 1rem;
+}
+
+.explanation p {
+    font-size: 2rem;
+}
+
+.footer {
+    width: 70vw;
+    height: 20vh;
+}
+
+.contact1 {
+    margin: 1rem 1rem;
+}
+
+.contact h1,
+h3 {
+    color: black;
+}
+
+.contact p {
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+}
+
+.call_option {
+    display: flex;
+    font-size: 100%;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
